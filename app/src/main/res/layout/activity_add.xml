@@ -8,7 +8,7 @@
     android:background="@color/orange">
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/prodImg"
         android:layout_width="192dp"
         android:layout_height="160dp"
         android:layout_marginTop="52dp"
@@ -26,7 +26,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView3">
+        app:layout_constraintTop_toTopOf="@+id/prodImg">
 
         <TextView
             android:layout_width="match_parent"
@@ -38,7 +38,7 @@
             android:textSize="20dp"/>
 
         <EditText
-            android:id="@+id/editTextDate1"
+            android:id="@+id/prodName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -55,7 +55,7 @@
             android:textSize="20dp" />
 
         <EditText
-            android:id="@+id/editTextNumberDecimal2"
+            android:id="@+id/prodPrice"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -73,13 +73,13 @@
             android:textSize="20dp" />
 
         <EditText
-            android:id="@+id/editTextDate2"
+            android:id="@+id/prodDate"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="date" />
+            android:inputType="" />
         <Button
-            android:id="@+id/addButton"
+            android:id="@+id/saveButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
